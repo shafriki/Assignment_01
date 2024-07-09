@@ -40,6 +40,10 @@
     cursor: pointer;
 
 }
+.banner-btn .ciku {
+    text-decoration: none;
+    color: whitesmoke;
+}
 .nav-btn:hover {
     color: orangered;
     background-color: black;
@@ -400,6 +404,15 @@
     margin: 0px 10px;
     padding: 17px 20px 17px 20px;
     border-radius: 8px;
- background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    margin: 0px 16px;
+    padding: 17px 20px 17px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    color: white;
+    background-color: forestgreen;
 }
 
