@@ -1,0 +1,218 @@
+/* import Azeret font for this assignment */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* .azeret-mono-<uniquifier> {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+  /* navbar style start */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .navbar-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 47px;
+    cursor: pointer;
+
+}
+
+.navbar .nav-btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+.nav-btn:hover {
+    color: orangered;
+    background-color: black;
+}
+/* navbar style end */
+
+/* banner section style start */
+
+.banner {
+    background-image: url(assets/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 26px 221px 44px 221px;
+
+}
+.banner .banner-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 998px;
+    height: 136px;
+    margin-top: 44px;
+}
+
+.banner .banner-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 852px;
+    height: 52px;
+    margin-top: 24px;
+
+}
+
+.banner .banner-btn {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    margin: 32px 0px;
+    border: none;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.banner-btn:hover{
+    color: whitesmoke;
+    background-color: forestgreen;
+}
+
+/* main section style start */
+.wwd {
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 75px 150px 75px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.wwd .wwd-border {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 10px;
+}
+.wwd-border .wwd-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+    
+}
+
+.wwd-border .wwd-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px;
+
+}
+
+.wwd-border .wwd-item {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+     margin: 32px 0;
+     padding: 48px;
+    }
+
+.wwd-item .item-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    height: 72px;
+    width: 490px;
+}
+
+.wwd-item .item-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    margin: 16px 0px;
+    padding: 0px;
+    width: 568px;
+    height: 52px;
+}
+
+.item-btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 12px 20px 12px 20px;
+}
+
+.wwd-tems {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+/* inspiration section style start */
+.inspiration-content .ins-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
