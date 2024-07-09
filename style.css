@@ -212,7 +212,128 @@
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
     text-align: center;
+}
+
+.inspiration-content .ins-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    width: 852px;
+    height: 52px; 
+    margin: 24px 0px;
+    padding: 0px;
+
+}
+
+.vid-link {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    /* width: 1140px;
+    height: 614px; */
+    margin: 48px 0px;
+    padding: 32px;
+
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+
+}
+
+/* target section style start */
+.target .target-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 24px 0px 24px 0px;
+    padding: 0px;
+}
+
+.target .target-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px 48px 0px;
+    padding: 0px;
+    /* width: 852px;
+    height: 52px; */
+
+}
+
+.target-container .t-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin: 24px 0px 8px 0px;
+    padding: 0px;
+}
+
+.target-container .t-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0px 8px 0px;
+    padding: 0px;
+    width: 384px;
+    height: 52px;
+
+}
+
+.target-container .t-link {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+.target-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.item-one {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+    /* width: 364px;
+    height: 299px; */
+}
+
+.item-two {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+}
+
+.item-three {
+    margin: 0px 24px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
